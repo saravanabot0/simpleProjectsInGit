@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #162052;
+}
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #d400d4; */
+  /* width: 100vw; */
+}
+.App h1 {
+  color: #fff;
+  padding: 0px 50px;
+  font-size: 6em;
+}
+
+.box {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  background: rgba(0,0,0,0.5);
+  border-radius: 50%;
+  overflow: hidden;
+}
+.box::before {
+  content: '';
+  position: absolute;
+  inset: -10px 140px;
+  background: linear-gradient(315deg,#00ccff,#d400d4);
+  transition: 0.5s;
+  animation: circleBorder 4s linear infinite;
+}
+
+.box:hover::before {
+  inset: -20px 0px;
+}
+
+@keyframes circleBorder 
+{
+  0% 
+  {
+    transform: rotate(0deg);
+  }
+  100% 
+  {
+    transform: rotate(360deg);
+  }
+}
+
+.box::after {
+  content: '';
+  position: absolute;
+  inset: 6px;
+  background: #162052;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.content {
+  position: absolute;
+  inset: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* background-color: #d400d4; */
+  border: 6px solid #070a1c;
+  z-index: 3;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.content img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.5s;
+  pointer-events: none;
+  z-index: 3;
+}
+
+.box:hover .content img {
+  opacity: 0;
+}
+
+.content h2 {
+  position: relative;
+  font-size: 1.5em;
+  text-align: center;
+  color: #fff;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+.content h2 span {
+  font-weight: 300;
+  font-size: 0.75em;
+}
+.content a {
+  position: relative;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #070a1c;
+  border-radius: 25px;
+  font-weight: 500;
+  font-size: 1.25em;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.content a:hover {
+  letter-spacing: 0.2em;
+}
+
+@media only screen and (max-width: 1150px) {
+  .App {
+    flex-direction: column;
+  }
+  
+}
+@media only screen and (min-width:320px) and (max-width:700px) {
+  .App h1 {
+    font-size: 3em;
+  }
+  .box {
+    width: 300px;
+    height: 300px;
+  }
+  .content h2 {
+    font-size: 1.2em;
+  }
+  .content h2 span {
+    font-size: 0.65em;
+  }
+  .content a {
+    font-size: 1em;
+  }
+}
+
+@media only screen and (min-width:700px) and (max-width:1150px) {
+  .App h1 {
+    font-size: 3.5em;
+  }
+}
