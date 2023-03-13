@@ -14,7 +14,7 @@ https://drive.google.com/file/d/1ihcvKsFujbU39No_fBejQGTbIi6KAEMp/view?usp=share
 laptopView
 ![Screenshot](laptopView.png)
 
-  <img src="https://github.com/saravanabot0/simpleProjectsInGit/blob/main/digitalClock/src/assets/Screenshot%202023-03-13%20140853.png" width="auto" alt="accessibility text">
+  <img src="https://github.com/saravanabot0/simpleProjectsInGit/blob/main/digitalClock/src/assets/Screenshot%202023-03-13%20140853.png" width="auto" height="300" alt="accessibility text">
 ![stack Overflow](https://github.com/saravanabot0/simpleProjectsInGit/blob/main/digitalClock/src/assets/Screenshot%202023-03-13%20140853.png)
 
 
