@@ -5,7 +5,7 @@ This is simple digital clock using react js.
 https://subtle-hotteok-b0905c.netlify.app/
 
 ## Preview Images
-<div  align="center">
+<div align="center">
 <!-- <div>
 <p> <b>smallMobileView</b> </p>
   <img src="https://github.com/saravanabot0/simpleProjectsInGit/blob/main/digitalClock/src/assets/Screenshot%202023-03-13%20140853.png" width="auto" height="350" alt="accessibility text">
@@ -22,8 +22,8 @@ https://subtle-hotteok-b0905c.netlify.app/
 <p> <b>laptopView</b> </p>
   <img src="https://github.com/saravanabot0/simpleProjectsInGit/blob/main/digitalClock/src/assets/laptopView.png" width="auto" height="350" alt="accessibility text">
 </div> -->
-<img src="https://github.com/saravanabot0/simpleProjectsInGit/blob/main/digitalClock/src/assets/Screenshot%202023-03-13%20140853.png" width="auto" height="350" alt="accessibility text">&nbsp;&nbsp;  
-<img src="https://github.com/saravanabot0/simpleProjectsInGit/blob/main/digitalClock/src/assets/Screenshot%202023-03-13%20140853.png" width="auto" height="350" alt="accessibility text">&nbsp;&nbsp; 
+<img src="https://github.com/saravanabot0/simpleProjectsInGit/blob/main/digitalClock/src/assets/Screenshot%202023-03-13%20140853.png" width="auto" height="350" alt="accessibility text">&nbsp;&nbsp;&nbsp;  
+<img src="https://github.com/saravanabot0/simpleProjectsInGit/blob/main/digitalClock/src/assets/Screenshot%202023-03-13%20140853.png" width="auto" height="350" alt="accessibility text">&nbsp;&nbsp;&nbsp; 
  <img src="https://github.com/saravanabot0/simpleProjectsInGit/blob/main/digitalClock/src/assets/Screenshot%202023-03-13%20140950.png" width="auto" height="350" alt="accessibility text">&nbsp;&nbsp;  
  <p></p>
  <img src="https://github.com/saravanabot0/simpleProjectsInGit/blob/main/digitalClock/src/assets/laptopView.png" width="auto" height="350" alt="accessibility text">
