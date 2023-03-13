@@ -7,19 +7,19 @@ https://subtle-hotteok-b0905c.netlify.app/
 ## Preview Images
 <div style="display:flex;justifyContent:center;" align="center">
 <div>
-<b> smallMobileView </b>
+<p> smallMobileView </p>
   <img src="https://github.com/saravanabot0/simpleProjectsInGit/blob/main/digitalClock/src/assets/Screenshot%202023-03-13%20140853.png" width="auto" height="350" alt="accessibility text">
 </div>
 <div>
-<b> mediumMobileView </b>
+<p> mediumMobileView </p>
   <img src="https://github.com/saravanabot0/simpleProjectsInGit/blob/main/digitalClock/src/assets/Screenshot%202023-03-13%20140929.png" width="auto" height="350" alt="accessibility text">
 </div>
 <div>
-<b> tabletView </b>
+<p> tabletView </p>
   <img src="https://github.com/saravanabot0/simpleProjectsInGit/blob/main/digitalClock/src/assets/Screenshot%202023-03-13%20140950.png" width="auto" height="350" alt="accessibility text">
 </div>
 <div>
-<b> laptopView </b>
+<p> laptopView </p>
   <img src="https://github.com/saravanabot0/simpleProjectsInGit/blob/main/digitalClock/src/assets/laptopView.png" width="auto" height="350" alt="accessibility text">
 </div>
 </div>
