@@ -24,6 +24,8 @@ https://subtle-hotteok-b0905c.netlify.app/
 </div> -->
 <img src="https://github.com/saravanabot0/simpleProjectsInGit/blob/main/digitalClock/src/assets/Screenshot%202023-03-13%20140853.png" width="auto" height="350" alt="accessibility text">
 <img src="https://github.com/saravanabot0/simpleProjectsInGit/blob/main/digitalClock/src/assets/Screenshot%202023-03-13%20140853.png" width="auto" height="350" alt="accessibility text">
+ <img src="https://github.com/saravanabot0/simpleProjectsInGit/blob/main/digitalClock/src/assets/Screenshot%202023-03-13%20140950.png" width="auto" height="350" alt="accessibility text">
+ <img src="https://github.com/saravanabot0/simpleProjectsInGit/blob/main/digitalClock/src/assets/laptopView.png" width="auto" height="350" alt="accessibility text">
 </div>
 
 
