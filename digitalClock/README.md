@@ -1,3 +1,20 @@
+ # DigitalClock
+This is simple digital clock using react js.
+
+## Hosted link
+https://subtle-hotteok-b0905c.netlify.app/
+
+## Preview Images
+smallMobileView
+https://drive.google.com/file/d/1kYWbubtHUKP09ohC1Nq4MzkzdnJ3kg-7/view?usp=share_link
+mediumMobileView
+https://drive.google.com/file/d/1e1-DixYOYgfkV7sUblOHu2MqQex2VbXT/view?usp=share_link
+tabletView
+https://drive.google.com/file/d/1ihcvKsFujbU39No_fBejQGTbIi6KAEMp/view?usp=share_link
+laptopView
+https://drive.google.com/file/d/1d2jOMYTwcUG9nOF217QTIgtxPtheiKIW/view?usp=share_link
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
