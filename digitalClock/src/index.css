@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "open Sans", sans-serif;
+  box-sizing: border-box;
+  /* min-height: 100vh; */
+  background-color: #060a1f;
+}
+.App {
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.heading {
+  position: relative;
+  display: block;
+  color: #fff;
+  text-align: center;
+  margin: 10px 0;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.4em;
+  font-size: 0.8em;
+}
+.time {
+  display: flex;
+}
+.time div {
+  position: relative;
+  margin: 0 5px;
+  -webkit-box-reflect: below 1px linear-gradient(transparent,#0004);
+}
+.time div span {
+  position: relative;
+  display: block;
+  height: 200px;
+  width: 300px;
+  background: #2196f3;
+  color: #fff;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10em;
+  z-index: 10;
+  box-shadow: 0 0 0 1px rgba(0,0,0,.2);
+}
+.time div span:nth-child(2) {
+  height: 30px;
+  font-size: 0.7em;
+  letter-spacing: 0.2em;
+  font-weight: 500;
+  z-index: 9;
+  box-shadow: none;
+  background: #127fd6;
+  text-transform: uppercase;
+}
+.time div:nth-child(3) span {
+  background: #ff006a;
+}
+.time div:last-child span:nth-child(2) {
+  background: #ec0062;
+}
+.time p {
+  color: #fff;
+  letter-spacing: 0.2em;
+  font-weight: 700;
+}
+
+
+@media screen and (max-width:350px) {
+  .time p {
+    font-size: .5em;
+  }
+}
+@media screen and (max-width:700px) {
+  .time div {
+    position: relative;
+    margin: 0 5px;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0004);
+  }
+  .time div span {
+    position: relative;
+    display: block;
+    height: 80px;
+    width: 100px;
+    background: #2196f3;
+    color: #fff;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    z-index: 10;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.2);
+  }
+  .time div span:nth-child(2) {
+    height: 30px;
+    font-size: 0.7em;
+    letter-spacing: 0.2em;
+    font-weight: 500;
+    z-index: 9;
+    box-shadow: none;
+    text-transform: uppercase;
+  }
+  .time div:last-child span:nth-child(2) {
+    background: #ec0062;
+  }
+}
+
+@media screen and (min-width:700px) and (max-width:1000px) {
+  .time div span {
+    position: relative;
+    display: block;
+    height: 190px;
+    width: 200px;
+    background: #2196f3;
+    color: #fff;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 8em;
+    z-index: 10;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.2);
+  }
+}
