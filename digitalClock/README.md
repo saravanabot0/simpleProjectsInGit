@@ -6,7 +6,7 @@ https://subtle-hotteok-b0905c.netlify.app/
 
 ## Preview Images
 <div style="display:flex;justify-content:center;">
-<div>
+<div style="display:flex;justify-content:center;">
 <p> smallMobileView </p>
   <img src="https://github.com/saravanabot0/simpleProjectsInGit/blob/main/digitalClock/src/assets/Screenshot%202023-03-13%20140853.png" width="auto" height="350" alt="accessibility text">
 </div>
