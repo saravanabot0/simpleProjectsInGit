@@ -15,7 +15,7 @@ laptopView
 ![Screenshot](laptopView.png)
 
   <img src="https://drive.google.com/file/d/1ihcvKsFujbU39No_fBejQGTbIi6KAEMp/view?usp=share_link" width="auto" alt="accessibility text">
-![stack Overflow](https://drive.google.com/file/d/1ihcvKsFujbU39No_fBejQGTbIi6KAEMp/view?usp=share_link" width="auto" alt="accessibility text)
+![stack Overflow](https://github.com/saravanabot0/simpleProjectsInGit/blob/main/digitalClock/src/assets/Screenshot%202023-03-13%20140853.png)
 
 
 
