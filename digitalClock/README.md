@@ -13,7 +13,9 @@ tabletView
 https://drive.google.com/file/d/1ihcvKsFujbU39No_fBejQGTbIi6KAEMp/view?usp=share_link
 laptopView
 ![Screenshot](laptopView.png)
-<img src="laptopView.png" title="hover text">
+
+  <img src="https://drive.google.com/file/d/1ihcvKsFujbU39No_fBejQGTbIi6KAEMp/view?usp=share_link" width="auto" alt="accessibility text">
+![stack Overflow](https://drive.google.com/file/d/1ihcvKsFujbU39No_fBejQGTbIi6KAEMp/view?usp=share_link" width="auto" alt="accessibility text)
 
 
 
