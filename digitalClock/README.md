@@ -6,21 +6,21 @@ https://subtle-hotteok-b0905c.netlify.app/
 
 ## Preview Images
 <div style="display:flex;">
-<div>
+<!-- <div> -->
 <p> smallMobileView </p>
-  <img src="https://github.com/saravanabot0/simpleProjectsInGit/blob/main/digitalClock/src/assets/Screenshot%202023-03-13%20140853.png" width="250" height="350" alt="accessibility text">
-</div>
-<div>
+  <img src="https://github.com/saravanabot0/simpleProjectsInGit/blob/main/digitalClock/src/assets/Screenshot%202023-03-13%20140853.png" width="auto" height="350" alt="accessibility text">
+<!-- </div> -->
+<!-- <div> -->
 <p> mediumMobileView </p>
-  <img src="https://github.com/saravanabot0/simpleProjectsInGit/blob/main/digitalClock/src/assets/Screenshot%202023-03-13%20140929.png" width="250" height="350" alt="accessibility text">
-</div>
+  <img src="https://github.com/saravanabot0/simpleProjectsInGit/blob/main/digitalClock/src/assets/Screenshot%202023-03-13%20140929.png" width="auto" height="350" alt="accessibility text">
+<!-- </div> -->
 <div>
 <p> tabletView </p>
-  <img src="https://github.com/saravanabot0/simpleProjectsInGit/blob/main/digitalClock/src/assets/Screenshot%202023-03-13%20140950.png" width="250" height="350" alt="accessibility text">
+  <img src="https://github.com/saravanabot0/simpleProjectsInGit/blob/main/digitalClock/src/assets/Screenshot%202023-03-13%20140950.png" width="auto" height="350" alt="accessibility text">
 </div>
 <div>
 <p> laptopView </p>
-  <img src="https://github.com/saravanabot0/simpleProjectsInGit/blob/main/digitalClock/src/assets/laptopView.png" width="250" height="350" alt="accessibility text">
+  <img src="https://github.com/saravanabot0/simpleProjectsInGit/blob/main/digitalClock/src/assets/laptopView.png" width="auto" height="350" alt="accessibility text">
 </div>
 </div>
 
