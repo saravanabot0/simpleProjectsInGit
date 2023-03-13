@@ -5,18 +5,23 @@ This is simple digital clock using react js.
 https://subtle-hotteok-b0905c.netlify.app/
 
 ## Preview Images
-smallMobileView
-https://drive.google.com/file/d/1kYWbubtHUKP09ohC1Nq4MzkzdnJ3kg-7/view?usp=share_link
-mediumMobileView
-https://drive.google.com/file/d/1e1-DixYOYgfkV7sUblOHu2MqQex2VbXT/view?usp=share_link
-tabletView
-https://drive.google.com/file/d/1ihcvKsFujbU39No_fBejQGTbIi6KAEMp/view?usp=share_link
-laptopView
 <div style="display:flex;">
-<p> laptopView </p>
+<div>
+<p> smallMobileView </p>
   <img src="https://github.com/saravanabot0/simpleProjectsInGit/blob/main/digitalClock/src/assets/Screenshot%202023-03-13%20140853.png" width="auto" height="350" alt="accessibility text">
-  mobileView
-   <img src="https://github.com/saravanabot0/simpleProjectsInGit/blob/main/digitalClock/src/assets/Screenshot%202023-03-13%20140853.png" width="auto" height="350" alt="accessibility text">
+</div>
+<div>
+<p> mediumMobileView </p>
+  <img src="https://github.com/saravanabot0/simpleProjectsInGit/blob/main/digitalClock/src/assets/Screenshot%202023-03-13%20140929.png" width="auto" height="350" alt="accessibility text">
+</div>
+<div>
+<p> tabletView </p>
+  <img src="https://github.com/saravanabot0/simpleProjectsInGit/blob/main/digitalClock/src/assets/Screenshot%202023-03-13%20140950.png" width="auto" height="350" alt="accessibility text">
+</div>
+<div>
+<p> laptopView </p>
+  <img src="https://github.com/saravanabot0/simpleProjectsInGit/blob/main/digitalClock/src/assets/laptopView.png">
+</div>
 </div>
 
 
