@@ -12,8 +12,8 @@ https://drive.google.com/file/d/1e1-DixYOYgfkV7sUblOHu2MqQex2VbXT/view?usp=share
 tabletView
 https://drive.google.com/file/d/1ihcvKsFujbU39No_fBejQGTbIi6KAEMp/view?usp=share_link
 laptopView
-![Screenshot]("./assets/laptopView.png")
-<img src="./assets/laptopView.png" title="hover text">
+![Screenshot](laptopView.png)
+<img src="laptopView.png" title="hover text">
 
 
 
