@@ -12,7 +12,7 @@ https://drive.google.com/file/d/1e1-DixYOYgfkV7sUblOHu2MqQex2VbXT/view?usp=share
 tabletView
 https://drive.google.com/file/d/1ihcvKsFujbU39No_fBejQGTbIi6KAEMp/view?usp=share_link
 laptopView
-https://drive.google.com/file/d/1d2jOMYTwcUG9nOF217QTIgtxPtheiKIW/view?usp=share_link
+./assets/laptopView.png
 
 
 # Getting Started with Create React App

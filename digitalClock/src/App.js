@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
+import laptop from "./assets/laptopView.png";
 
 function App() {
 
