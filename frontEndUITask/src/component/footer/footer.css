@@ -1,0 +1,236 @@
+.footerContainer {
+    background-image: linear-gradient(to right, #0C0C10  , #181727 );
+    position: relative;
+}
+.footerLeftSideContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid rgb(90, 89, 89);
+    padding-bottom: 80px;
+    margin: 80px 0px 90px!important;
+}
+.footerCompanyName {
+    height: 70px;
+    width: 130px;
+}
+.footerCompanyName img {
+    height: 100%;
+    width: 100%;
+}
+.footerDescription {
+    color: lightgray;
+}
+.footerButtons {
+    display: flex;
+    gap: 30px;
+    padding-top: 40px;
+}
+.footerButtons button {
+    background-color: transparent;
+  border: 2px solid #ef9e5e;
+  padding: 9px 25px;
+  border-radius: 30px;
+  color: var(--orangeColor);
+}
+.footerRightSideContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 100px!important;
+    margin: 80px 0px 100px!important;
+}
+.footerRSHeading {
+    color: var(--whiteColor);
+    font-size: 22px;
+}
+.footerMenuList {
+    display: flex;
+    gap: 80px;
+    padding-top: 30px;
+}
+.footerMenuList p {
+    font-size: 14px;
+    color: lightgray;
+    text-decoration: underline;
+    line-height: 2.2;
+}
+.footerInput {
+    width: 65%;
+    margin-top: 20px;
+    position: relative;
+}
+.footerInput .form-control {
+    display: block;
+    width: 100%;
+    padding: .7rem 1.2rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: lightgray;
+    background-color: #151515;
+    background-clip: padding-box;
+    border: 1px solid #ef9e5e;
+    appearance: none;
+    border-radius: .5rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.footerInput .form-control:focus {
+    color: lightgray;
+    background-color: #151515;
+    border-color: #ef9e5e;
+    outline: unset;
+    box-shadow: unset;
+}
+.footerInput .input-group>.form-control:focus {
+    z-index: 0;
+}
+.footerRightArrow {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #ef9e5e;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0px 15px;
+    font-size: 22px;
+    color: var(--whiteColor);
+    border-bottom-right-radius:.5rem ;
+    border-top-right-radius:.5rem ;
+    z-index: 1;
+    cursor: pointer;
+}
+
+@media (max-width: 330px) {
+    .footerLeftSideContent {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        border-bottom: 1px solid rgb(90, 89, 89);
+        border-right: none;
+        padding-bottom: 80px;
+        margin: 40px 20px 10px!important;
+    }
+
+    .footerRightSideContent {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding-left: 30px!important;
+        margin: 70px 0px 100px!important;
+    }
+    .footerInput {
+        width: 90%;
+        margin-top: 20px;
+        position: relative;
+    }
+    .footerMenuList {
+        display: flex;
+        gap: 35px;
+        padding-top: 30px;
+    }
+    .footerButtons button {
+        padding: 9px 8px;
+        border-radius: 30px;
+    }
+}
+
+
+
+@media only screen and (min-width:330px) and (max-width:700px) {
+    .footerLeftSideContent {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        border-bottom: 1px solid rgb(90, 89, 89);
+        border-right: none;
+        padding-bottom: 80px;
+        margin: 40px 50px 10px!important;
+    }
+
+    .footerRightSideContent {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding-left: 53px!important;
+        margin: 70px 0px 100px!important;
+    }
+    .footerInput {
+        width: 75%;
+        margin-top: 20px;
+        position: relative;
+    }
+    .footerMenuList {
+        display: flex;
+        gap: 12px;
+        padding-top: 30px;
+    }
+    .footerButtons button {
+        padding: 9px 20px;
+        border-radius: 30px;
+    }
+}
+
+@media (max-width: 700px) {
+    .footerContainer {
+        position: relative;
+        top: -80px;
+    }
+    
+}
+
+@media only screen and (min-width:700px) and (max-width:900px) {
+    .footerLeftSideContent {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        border-right: 1px solid rgb(90, 89, 89);
+        padding-bottom: 80px;
+        margin: 80px 0px 90px!important;
+        padding-left: 25px!important;
+    }
+    .footerRightSideContent {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding-left: 30px!important;
+        margin: 80px 0px 100px!important;
+    }
+    .footerInput {
+        width: 75%;
+        margin-top: 20px;
+        position: relative;
+    }
+    .footerMenuList {
+        display: flex;
+        gap: 18px;
+        padding-top: 30px;
+    }
+    
+}
+
+@media only screen and (min-width:900px) and (max-width:1200px) {
+    .footerLeftSideContent {
+        padding-left: 30px!important;
+    }
+    .footerRightSideContent {
+        padding-left: 55px!important;
+    }
+    .footerInput {
+        width: 75%;
+    }
+    .footerMenuList {
+        display: flex;
+        gap: 65px;
+    }
+    
+}

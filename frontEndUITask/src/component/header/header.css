@@ -1,0 +1,159 @@
+.header {
+    font-family: 'Nunito Sans', sans-serif;
+}
+.headerBackground {
+    position: relative;
+    width: 100%;
+    overflow-x: hidden;
+    z-index: 1;
+}
+.headerContent {
+    position: absolute;
+    top: 20px;
+    display: flex;
+    justify-content:space-evenly;
+    z-index: 1;
+    width: 100%;
+}
+.companyImgContainer {
+    width: 30%;
+}
+.companyName {
+    width: 140px;
+    height: 50px;
+}
+.AiOutlineMenu {
+    display: none;
+}
+.hideOptions {
+    display: flex;
+    justify-content:space-evenly;
+    width: 50%;
+}
+.menuGroup {
+    display: flex;
+    justify-content:space-between;
+    color: var(--grayColor);
+    font-size: 17px;
+    gap: 35px;
+    padding-top: 20px;
+}
+.headerButtonGroup {
+    display: flex;
+    align-items: flex-end;
+    gap: 20px;
+    padding-bottom: 5px;
+}
+.open {
+    width: 100%;
+}
+.close {
+    width: 0;
+}
+.hideContent {
+    opacity: 0;
+}
+.showContent {
+    opacity: 1;
+}
+.smallScreenMenuContainer {
+    /* background-color: teal; */
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    margin-top: 130px;
+    height: 80vh;
+    /* width: 100%; */
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+.smallScreenContent {
+    background-color: #141321;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+    transition: 0.3s;
+}
+.smallScreenContent p {
+    font-size: 18px;
+    color: lightgray;
+}
+
+@media (max-width: 600px) {
+    .AiOutlineMenu {
+        padding-right: 25px!important;
+    }
+    .companyImgContainer {
+        padding-left: 25px;
+    }
+}
+@media screen and (min-width:600px) and (max-width:900px) {
+    .AiOutlineMenu {
+        padding-right: 40px!important;
+    }
+    .companyImgContainer {
+        padding-left: 50px;
+    }
+}
+@media (max-width: 770px) {
+    /* .companyImgContainer {
+        padding-left: 20px;
+    }
+    .companyName {
+        width: 155px;
+        height: 90px;
+    } */
+}
+
+@media (max-width: 900px) {
+    .AiOutlineMenu {
+        display: unset;
+        font-size: 30px;
+        color: lightgray;
+        padding-right: 20px;
+    }
+    .hamburgerIcon {
+        /* background-color: aqua; */
+        cursor: pointer;
+    }
+    .AiOutlineClose {
+        color: var(--orangeColor);
+    }
+    .hamburgerIcon:hover {
+        color: var(--orangeColor);
+    }
+    .hideOptions {
+        display: none;
+    }
+    .headerContent {
+        position: absolute;
+        top: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 1;
+        width: 100%;
+    }
+    .companyName {
+        width: 155px;
+        height: 90px;
+    }
+}
+@media only screen and (min-width:900px) and (max-width:1300px) {
+    .companyImgContainer {
+        width: unset;
+        padding-left: 10px;
+    }
+    .hideOptions {
+        display: flex;
+        justify-content:space-evenly;
+        width: 80%;
+    }
+}
+@media (max-width: 1500px) {
+    .headerBackground {
+        width: unset;
+    }
+}
