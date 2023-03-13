@@ -5,9 +5,9 @@ This is simple digital clock using react js.
 https://subtle-hotteok-b0905c.netlify.app/
 
 ## Preview Images
+<div style="display:flex;justifyContent:center;" >
 <div style="display:flex;justifyContent:center;">
-<div style="display:flex;justifyContent:center;">
-<p> smallMobileView </p>
+<p align="center"> smallMobileView </p>
   <img src="https://github.com/saravanabot0/simpleProjectsInGit/blob/main/digitalClock/src/assets/Screenshot%202023-03-13%20140853.png" width="auto" height="350" alt="accessibility text">
 </div>
 <div>
