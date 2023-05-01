@@ -23,7 +23,7 @@ function App() {
   const [amPm,setAmPm] = useState(findAmorPm);
 
   const updateTime = () => {
-    var findAmorPm = new Date().getHours() > 12 ? "PM" : "AM";
+    var findAmorPm = new Date().getHours() >= 12 ? "PM" : "AM";
   var findHours = new Date().getHours() % 12;
   findHours = findHours < 10 ? "0"+findHours : findHours;
 
